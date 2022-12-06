@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.nav {
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:36px; line-height:36px;
+    background:#0d7963;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+ul.nav li {
+    border-right:1px solid #189b80; 
+    float:left;
+}
+
+ul.nav a {
+    display:block;
+    padding:0 28px;
+    color:#ccece6;
+    text-decoration:none;
+}
+
+ul.nav a:hover {
+    background:#086754;
+}
+
+ul.nav li.current a {
+    background:#086754;
+}
+
+div.questionAddBox {
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 25px;
+    margin-left: 20px; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    margin-right: 20px;
+    background : rgb(187, 192, 170);
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+
+ div.questionAddBoxBox{
+  display:flex;
+ }
+
+ div.questionAdd{
+  flex: 1;
+ }
+
+ div.questionAdd2{
+  margin-left: 50px; 
+  margin-top: 40px;
+  flex: 2;
+ }
+
+  textarea {
+    border-radius: 5px;
+    margin-top: 0px;   
+    resize: none; 
+  }
+
+  button.question{
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    background:#0d7963;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  button.submitButt{
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    background:#30839f;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+
+  label.CO{
+    margin-top: 10px;
+  }
+  
